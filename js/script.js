@@ -20,7 +20,7 @@ for (let news of daryoPostlari) {
   newsTitle.classList.add("card-title");
   newsText.classList.add("card-text");
   newsText1.classList.add("card-text");
-  newsLink.setAttribute("class", "btn btn-danger");
+  newsLink.setAttribute("class", "btn btn-info");
   newsLink.setAttribute("href", `://daryo.uz/${news.daryoId}`);
 
 
@@ -36,5 +36,4 @@ for (let news of daryoPostlari) {
   newsLi.appendChild(newsText);
   newsLi.appendChild(newsText1);
   newsLi.appendChild(newsLink);
-  console.log(elNewsList);
 }
